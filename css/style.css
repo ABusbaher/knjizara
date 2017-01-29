@@ -1,0 +1,126 @@
+body{
+    font-family:Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform:uppercase;
+  font-weight: bold !important;
+  text-align: center !important;
+  color:#0f0fbd;
+  margin:0.5em 0 0.7em 0;
+}
+h2 { 
+  font-size:26px; 
+  color:#0f0fbd;
+  text-align: center;
+}
+h3 { 
+  font-size:22px; 
+  color:#0f0fbd!important;
+  text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:#fff!important;
+    text-decoration: bold;
+    font-size: 20px;
+}
+/*---------- NAVIGATION STYLE---------- */
+
+#glavna-nav{
+    margin-bottom: 0px;
+}
+#nav{
+    background-color: #0f0fbd;
+}
+ #logo a:hover,
+ #logo a:active{
+    background-color: #fff;
+    color:#0f0fbd !important;
+}
+#nav ul li a:hover,
+#nav ul li a:active{
+    background-color: #fff;
+    color:#0f0fbd !important;
+}
+/*---------- MAIN PAGE STYLE---------- */
+
+
+hr {
+    display: block;
+    border-color: #0f0fbd !important;
+    border-width: 2px !important;
+}
+.btn {
+    text-decoration: none;
+    color:#fff!important;
+    text-decoration: bold;
+    font-size: 16px !important;;
+    background-color: #0f0fbd!important;
+}
+.btn:hover{
+    color:#0f0fbd!important;
+    text-decoration: bold;
+    font-size: 16px !important;
+    background-color: #fff!important;
+}
+
+#dodaj_knjigu{
+    text-align: center;
+}
+#dodaj_knjigu a{
+    font-size: 20px !important;
+}
+
+/*---------- PAGINATION STYLE ---------- */
+.inactive a{ 
+  background-color: #A9A9A9!important;
+  color:#fff;
+}
+.inactive a:hover,
+.inactive a:active{
+  border: 1px solid #0f0fbd!important;
+  background-color: #fff!important;
+  color:#0f0fbd!important;
+}
+.next a{
+  margin:0 20px;
+  background-color: #0f0fbd!important;
+  color:#fff;
+}
+.active a{
+  background-color: #0f0fbd!important;
+  color:#fff;
+}
+.active a:hover,
+.active a:active{
+  border: 1px solid #0f0fbd!important;
+  background-color: #fff!important;
+  color:#0f0fbd!important;
+}
+.next a{
+  margin:0 20px;
+  background-color: #0f0fbd!important;
+  color:#fff;
+}
+.next a:hover,
+.next a:active{
+  margin:0 20px;
+  background-color: #fff!important;
+  border: 1px solid black;
+  color:#0f0fbd!important;
+}
+
+.previous a{
+  margin:0 20px;
+  background-color: #0f0fbd!important;
+  color:#fff;
+}
+.previous a:hover,
+.previous a:active{
+  margin: 0 20px;
+  background-color: #fff!important;
+  border: 1px solid black;
+  color:#0f0fbd!important;
+}
